@@ -1,0 +1,26 @@
+const FBM = {
+  name: 'FBM',
+  CONFIG: {
+    emailFilter: 'from: seller-notification@amazon.com and subject: sold, ship now ',
+    columns: [
+      ["Order ID", fromEmailPlainBody(/Order ID: (.*)/)],
+      ["Email", getRecipientName()],
+      ["Ship by", fromEmailPlainBody(/Ship by: (.*)/)],
+      ["Item", fromEmailBody(/Item: (.*?[^<]+)/s)],
+      ["Condition", fromEmailPlainBody(/Condition: (.*)/)],
+      ["SKU", fromEmailPlainBody(/SKU: (.*)/)],
+      ["Quantity", fromEmailPlainBody(/Quantity: (.*)/gi, concatAll("=", "+", ""))],
+      ["Order date", fromEmailPlainBody(/Order date: (.*)/)],
+      ["Price", fromEmailPlainBody(/Price:[\s\r\n\w-]+[$](.*)/gi, concatAll("=", "+", ""))],
+      ["Tax", fromEmailPlainBody(/[\r\n]Tax:[\s\r\n\w-]+[$](.*)/gi, concatAll("=", "+", ""))],
+      ["Shipping", fromEmailPlainBody(/Shipping:[\s\r\n\w-]+[$](.*)/gi, concatAll("=", "+", ""))],
+      ["Shipping tax", fromEmailPlainBody(/[\r\n]Shipping tax:[\s\r\n\w-]+[$](.*)/gi, concatAll("=", "+", ""))],
+      ["Amazon fees", fromEmailPlainBody(/Amazon fees:[\s\r\n\w-]+[$](.*)/gi, concatAll("=", "+", ""))],
+      ["Promotions", fromEmailPlainBody(/Promotions:[\s\r\n\w-]+[$](.*)/gi, concatAll("=", "+", ""))],
+      ["Marketplace Facilitator Tax", fromEmailPlainBody(/Marketplace Facilitator Tax:[\s\r\n\w-]+[$](.*)/gi, concatAll("=", "+", ""))],
+      ["Marketplace Facilitator Shipping Tax", fromEmailPlainBody(/Marketplace Facilitator Shipping Tax:[\s\r\n\w-]+[$](.*)/gi, concatAll("=", "+", ""))],
+      ["Your earnings", fromEmailPlainBody(/Your earnings:[\s\r\n\w-]+[$](.*)/gi, concatAll("=", "+", ""))],
+    ],
+    primaryKey: "Order ID"
+  }
+}
