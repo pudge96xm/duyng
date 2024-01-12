@@ -1,0 +1,978 @@
+Delivered-To: zendaoder@gmail.com
+Received: by 2002:a05:7301:6f81:b0:101:1503:d954 with SMTP id tb1csp1752622dyb;
+        Thu, 11 Jan 2024 17:48:26 -0800 (PST)
+X-Received: by 2002:a05:6808:1313:b0:3bb:c887:5e2d with SMTP id y19-20020a056808131300b003bbc8875e2dmr298963oiv.44.1705024106258;
+        Thu, 11 Jan 2024 17:48:26 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1705024106; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=FCspBySE2alBID3QsfUq7BlC6hwcwFRdGhxAXyHDHyP/mZySaLomsJ5PqvJbZRSs/o
+         egoxGhheK+kfCOXtw85xTM0QRxfoCUDhs1cydm4y6GKP98v4+9lzawmX7Mtr5/GAxFn/
+         3vayWFhom4JvxztrEoNva9Bqmz4qLhN1Ius+erggT2PVAb4FZhDlGhw0I2F/yxt4zs6b
+         hcYrqUKPHBaDpEsHcCGKYu2OEMSyiOqzN2S5tzPKt3KFrBwvaXDCZi3QEMeyOkOzPYQu
+         qAgroWN63pOxGlooyKH4+jzqUmC5mYM2YGRcw5JdO9pXVqwoZwZJlJB2F6Fru242RKcC
+         +HaQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:bounces-to:mime-version:subject:message-id:to:reply-to
+         :from:date:dkim-signature:dkim-signature:delivered-to;
+        bh=cX90yx2w3FJcQgwwmd7S91nqHOy/iyx3OeF1e1a4u50=;
+        fh=1QI/XwhT55ywq9whaK7AcqAg1fZGrujBbneUDMb9nKk=;
+        b=AzQvnwCuQVUH62ARY59Sjd5qgLipKEYhlSA6I17L+Aqh1iHjNf/Ls3Vs7Tw9LBrchP
+         YJrAEiFJgsSKhG3pmeHnIUabziWBB8jeo+jljhTXcKUW8+7h7zJl39aopmhCMMrdGnlv
+         1g92YxFVQn0HVvbgMz/5M8265jPhLvAXHjvytGiFG8dFgeNetTG9hpIb1ptdQiuPZvmo
+         5FjxtgZqlScEG/43KU3ipWaeQdtDyK40sZMBPxU3a5lO2LhJBcPlkS1hRTueMYdQta43
+         DtSCutdtsAC95aHS9Fj4iURg3N767n5g0XKWGsW6ooDOReSZV2BM0IOZ+Q56MzAZthFl
+         jbNw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@amazon.com header.s=yg4mwqurec7fkhzutopddd3ytuaqrvuz header.b=foJbzRvn;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=UR48P2BD;
+       arc=pass (i=1 spf=pass spfdomain=sellernotifications.amazon.com dkim=pass dkdomain=amazon.com dkim=pass dkdomain=amazonses.com dmarc=pass fromdomain=amazon.com);
+       spf=pass (google.com: domain of phanchauduong57334q+caf_=zendaoder=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="phanchauduong57334q+caf_=zendaoder=gmail.com@gmail.com";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=amazon.com
+Return-Path: <phanchauduong57334q+caf_=zendaoder=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id s3-20020a056808008300b003bd546af0c6sor1739718oic.0.2024.01.11.17.48.25
+        for <zendaoder@gmail.com>
+        (Google Transport Security);
+        Thu, 11 Jan 2024 17:48:26 -0800 (PST)
+Received-SPF: pass (google.com: domain of phanchauduong57334q+caf_=zendaoder=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@amazon.com header.s=yg4mwqurec7fkhzutopddd3ytuaqrvuz header.b=foJbzRvn;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=UR48P2BD;
+       arc=pass (i=1 spf=pass spfdomain=sellernotifications.amazon.com dkim=pass dkdomain=amazon.com dkim=pass dkdomain=amazonses.com dmarc=pass fromdomain=amazon.com);
+       spf=pass (google.com: domain of phanchauduong57334q+caf_=zendaoder=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="phanchauduong57334q+caf_=zendaoder=gmail.com@gmail.com";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=amazon.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705024105; x=1705628905;
+        h=feedback-id:bounces-to:mime-version:subject:message-id:to:reply-to
+         :from:date:dkim-signature:dkim-signature:delivered-to
+         :x-forwarded-for:x-forwarded-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=cX90yx2w3FJcQgwwmd7S91nqHOy/iyx3OeF1e1a4u50=;
+        b=fQVgyeGVEnptaGctYlaHEFEaAaq2QGBIpW+A9BaewWfCy3vDtg0ENj9sFZbeqsSGMl
+         xTnN/PPWn0PkaKDPykt55p+q209j3cVwbshzwto7f1PfUmFWBeQeP8vAcAlJLfJ8JF1e
+         3ZgNmdwzAKTITW04W9MNZ4L3KirJ0d1fWqYXUTcv1viZ3EBhiSW9p/zfYEfnlNaDqEv4
+         UlZ1aLO7tdXZVWmEVkyDXQojxf3hwSBTfNNnAkBIGyso+6SFPlWvLPipcQwKzbhfj+dI
+         viSkn+STxA2ZVm9d4gcwVX8EZtCWuDLCZVTLc0Y/6PrwgzrnlUm4JIcAhhYM9vWBrP3h
+         rSCg==
+X-Gm-Message-State: AOJu0YxNyoUdPXY0XnFUkgCNUMFfrXWUOGKilRY5f2yO28tyBf5N51Ot HHS4BU1qzu/51X4wuRXFMQXExNteDQyYzyE2chhIaHs6jEQqzscv
+X-Received: by 2002:a05:6808:30a6:b0:3bd:50b7:86c7 with SMTP id bl38-20020a05680830a600b003bd50b786c7mr354070oib.30.1705024104853;
+        Thu, 11 Jan 2024 17:48:24 -0800 (PST)
+X-Forwarded-To: zendaoder@gmail.com
+X-Forwarded-For: phanchauduong57334q@gmail.com zendaoder@gmail.com
+Delivered-To: phanchauduong57334q@gmail.com
+Received: by 2002:a05:6a10:ef74:b0:52a:4ee5:aac8 with SMTP id tu52csp1930397pxb;
+        Thu, 11 Jan 2024 17:48:23 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IGOCO6VBuw5gHuNqpfHkT4yk5UvVu8J7pvH6PfUczW3PT6vpVtLBE+BbhczkFKJ60ThNLAr
+X-Received: by 2002:a05:6214:226c:b0:681:1517:dea with SMTP id gs12-20020a056214226c00b0068115170deamr227267qvb.84.1705024103300;
+        Thu, 11 Jan 2024 17:48:23 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1705024103; cv=none;
+        d=google.com; s=arc-20160816;
+        b=c1zK4m+b7LK5gOCJQZX5HCZBJw4rlaCHXT6H2h2AujYNi4E2tz+AiCig/3uH7Il01E
+         T5DVeWVxozL6bQed+k7v9Hyosb7hdjj7adJLY9GaQBpoCYtN+CDQYD7V7tHiGWerktf5
+         6EoB2b6EDoccWUNVFbhtgvyCN87J2NfqqYQnVW1C1aEvEYubxWPTOMBEu/twP3YxwPjP
+         2dtMFGyRBtEdnaaIyU4rw+CmZVltLmFIcZDpDRpLSPj4DoKZw6Oiu48vw43rq10BAoXu
+         gCoHG8Yy8ZuhJSHZSXI6n+l/8lV4nqfB4zr96G68G3MCzXheFU0siFuwZTKVkTsDSjAP
+         jKUg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:bounces-to:mime-version:subject:message-id:to:reply-to
+         :from:date:dkim-signature:dkim-signature;
+        bh=cX90yx2w3FJcQgwwmd7S91nqHOy/iyx3OeF1e1a4u50=;
+        fh=1QI/XwhT55ywq9whaK7AcqAg1fZGrujBbneUDMb9nKk=;
+        b=bhegH69M24ZARbZeW/Qj8Q6iDd3cNwLFvljawDE2luXzPEBFfvhCjPOMWjZdqwTao3
+         PzKa9LRwW2iPdUElUzb8ouYv9DKdijtufCTBz+roc6xGT+eqg16pA9WVXXtjxGe85UVZ
+         BFuEtr3yWe9gKCBr7lyZEm/F1zYjj8hMUoGxBwc9zRYS2x6AnmOyJ+wvK6G0pyt81JLF
+         z8yV+NoKkQ5M5XPgbIadGiXsLU7kHu8BHLH03Eb0kmVF4cdXrPqhNxKAVpB+3bTgUFv9
+         WPNDHhth0GXEfOwDjPUd40hjjVHETjmKiAloQwxcKvcD35Uo77JU24I09sBtxxrSwYeY
+         Nv9A==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@amazon.com header.s=yg4mwqurec7fkhzutopddd3ytuaqrvuz header.b=foJbzRvn;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=UR48P2BD;
+       spf=pass (google.com: domain of rte+ne-null-de34ca04848731d855ashljwuq@sellernotifications.amazon.com designates 54.240.13.158 as permitted sender) smtp.mailfrom=RTE+NE-null-de34cA04848731D855ASHLJWUQ@sellernotifications.amazon.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=amazon.com
+Return-Path: <RTE+NE-null-de34cA04848731D855ASHLJWUQ@sellernotifications.amazon.com>
+Received: from a13-158.smtp-out.amazonses.com (a13-158.smtp-out.amazonses.com. [54.240.13.158])
+        by mx.google.com with ESMTPS id o1-20020a0ccb01000000b0067f031e4b87si1892340qvk.616.2024.01.11.17.48.23
+        for <phanchauduong57334q@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 11 Jan 2024 17:48:23 -0800 (PST)
+Received-SPF: pass (google.com: domain of rte+ne-null-de34ca04848731d855ashljwuq@sellernotifications.amazon.com designates 54.240.13.158 as permitted sender) client-ip=54.240.13.158;
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=yg4mwqurec7fkhzutopddd3ytuaqrvuz; d=amazon.com; t=1705024102; h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type; bh=9rhztGF+Fm5VOhYcfJJgZ8/xNCpnOAIRiEwtCuzlsl4=; b=foJbzRvnEu50AhazfyygFM40NJEZAI3NM1cQlQu7nszvToC/ykQtcvumJgO1Ect1 AfiTZBobOcucf60hINN1xTvmpR0lTWSi0nUolOC+1O7gLp0Y0NX6IgCfLYL9ROslLkN 2XKBi7ad32J/piPItaYsDehxO72sxrC0IRINAmSY=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1705024102; h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID; bh=9rhztGF+Fm5VOhYcfJJgZ8/xNCpnOAIRiEwtCuzlsl4=; b=UR48P2BDlIMhVYypAoR/tcBmtS4UG5UKIS8RejFXSUrmQQSRc9vzA838Dgj8Uh8g cFm6onP5Yt6XPb5sXicLN9e32AbllQrYm+wRzb7dOEeowZY81m9ssd7go/oQukGN267 mpbp5am8f76npneODK5q5w0wxcWevKQdklIuB8rQ=
+Date: Fri, 12 Jan 2024 01:48:22 +0000
+From: Seller Notification <seller-notification@amazon.com>
+Reply-To: seller-notification@amazon.com
+To: phanchauduong57334q@gmail.com
+Message-ID: <0100018cfb5b2171-973d43f1-8570-41d2-9e47-4b84f6af8f36-000000@email.amazonses.com>
+Subject: Sold, ship now: GNBC00049 The Mighty Myth Personalized Baseball Cap, 3D Printed Excavator Baseball Fitted Hats for Men, Ball Caps for Teen Boys, Baseball Hats for Men, Caps for Men
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_1080782_1457308405.1705024102763"
+X-AMAZON-MAIL-RELAY-TYPE: notification
+Bounces-to: RTE+NE-null-de34cA04848731D855ASHLJWUQ@sellernotifications.amazon.com
+X-AMAZON-METADATA: CA=C2CGXCEWPRPV2X-CU=A1BBRLABG3RWDP
+X-Original-MessageID: <urn.rtn.msg.20240112014822aee0e40e163d4bc0bc3881d81b70p0na@1705024102763.>
+Feedback-ID: 1.us-east-1.ZHcGJK6s+x+i9lRHKog4RW3tECwWIf1xzTYCZyUaiec=:AmazonSES
+X-SES-Outgoing: 2024.01.12-54.240.13.158
+
+------=_Part_1080782_1457308405.1705024102763
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+
+<!--[if gte mso 15]>
+<xml>
+	<o:OfficeDocumentSettings>
+	<o:AllowPNG/>
+	<o:PixelsPerInch>96</o:PixelsPerInch>
+	</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<meta charset="UTF-8">
+<!--[if !mso]><!-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+<style type="text/css">
+	
+@font-face {
+    font-family: 'Amazon Ember';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Amazon Ember Light'), local('AmazonEmber-Light'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_lt_base.woff2) format('woff2'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_lt_base.woff) format('woff');
+}
+@font-face {
+    font-family: 'Amazon Ember';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Amazon Ember Light Italic'), local('AmazonEmber-LightItalic'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_ltit_base.woff2) format('woff2'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_ltit_base.woff) format('woff');
+}
+@font-face {
+    font-family: 'Amazon Ember';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Amazon Ember'), local('AmazonEmber'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_rg_base.woff2) format('woff2'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_rg_base.woff) format('woff');
+}
+@font-face {
+    font-family: 'Amazon Ember';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Amazon Ember Italic'), local('AmazonEmber-Italic'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_rgit_base.woff2) format('woff2'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_rgit_base.woff) format('woff');
+}
+@font-face {
+    font-family: 'Amazon Ember';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Amazon Ember Medium'), local('AmazonEmber-Medium'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_md_base.woff2) format('woff2'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_md_base.woff) format('woff');
+}
+@font-face {
+    font-family: 'Amazon Ember';
+    font-style: italic;
+    font-weight: 600;
+    src: local('Amazon Ember Medium Italic'), local('AmazonEmber-MediumItalic'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_mdit_base.woff2) format('woff2'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_mdit_base.woff) format('woff');
+}
+@font-face {
+    font-family: 'Amazon Ember';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Amazon Ember Bold'), local('AmazonEmber-Bold'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_bd_base.woff2) format('woff2'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_bd_base.woff) format('woff');
+}
+@font-face {
+    font-family: 'Amazon Ember';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Amazon Ember Bold Italic'), local('AmazonEmber-BoldItalic'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_bdit_base.woff2) format('woff2'), url(https://m.media-amazon.com/images/G/01/nbus-common/woff/amazonember_bdit_base.woff) format('woff');
+}
+
+
+
+	.nbus-survey{color: #FFF;font-family:'Amazon Ember';font-size:13px;line-height:150%;text-align:center}
+	.nbus-survey:visited{color: #FFF;font-family:'Amazon Ember';font-size:13px;line-height:150%;text-align:center}
+	.nbus-survey:hover{color: #FFF;font-family:'Amazon Ember';font-size:13px;line-height:150%;text-align:center}
+	.nbus-survey:focus{color: #FFF;font-family:'Amazon Ember';font-size:13px;line-height:150%;text-align:center}
+	.nbus-survey:active{color: #FFF;font-family:'Amazon Ember';font-size:13px;line-height:150%;text-align:center}
+	
+	one-column{border-spacing:0px;background-color:#FFFFFF;border:0px;padding:0px;width:100%;column-count:1;}
+	endrImageBlock{padding:0px;border-spacing:0px;min-width:100%;border-collapse:collapse;width:100%;border:0px;}
+	endrImageBlockInner{padding:0px;}
+	endrImageContentContainer{adding:0px;border-spacing:0px;min-width:100%;border-collapse:collapse;width:100%;border:0px;}
+	endrTextContentContainer{min-width:100%;width:100%;border-collapse:collapse;background-color:#FFFFFF;border:0px;padding:0px;border-spacing:0px;}
+	endrTextBlock{min-width:100%;border-collapse:collapse;background-color:#ffffff;width:100%padding:0px;border-spacing:0px;border:0px;}
+	preview-text{display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: 'Amazon Ember';}
+	
+	p{
+	text-align: left;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:0;
+	margin-left:0;
+	padding-top:0;
+	padding-bottom:0;
+	padding-right:0;
+	padding-left:0;
+	line-height:185%;
+	}
+	table{
+	border-collapse:collapse;
+	}
+	h1,h2,h3,h4,h5,h6{
+	display:block;
+	margin:0;
+	padding:0;
+	}
+	img,a img{
+	border:0;
+	height:auto;
+	outline:none;
+	text-decoration:none;
+	}
+	pre{
+	height:100%;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	font-family:'Amazon Ember';
+	min-width:100%;
+	white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	}
+	body,#bodyTable,#bodyCell{
+	height:100%;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	background-color:#e4e3e4;
+	color:#999999
+	font-family:'Amazon Ember';
+	min-width:100%;
+	}
+	#outlook a{
+	padding:0;
+	}
+	img{
+	-ms-interpolation-mode:bicubic;
+	}
+	table{
+	mso-table-lspace:0pt;
+	mso-table-rspace:0pt;
+	}
+	.ReadMsgBody{
+	width:100%;
+	}
+	.ExternalClass{
+	width:100%;
+	}
+	p,a,li,td,blockquote{
+	mso-line-height-rule:exactly;
+	}
+	a[href^=tel],a[href^=sms]{
+	color:inherit;
+	cursor:default;
+	text-decoration:none;
+	}
+	p,a,li,td,body,table,blockquote{
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	}
+	.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+	line-height:100%;
+	}
+	a[x-apple-data-detectors]{
+	color:inherit !important;
+	text-decoration:none !important;
+	font-size:inherit !important;
+	font-family:inherit !important;
+	font-weight:inherit !important;
+	line-height:inherit !important;
+	}
+	.templateContainer{
+	max-width:600px !important;
+	}
+	.endrImage{
+	vertical-align:bottom;
+	}
+	.endrTextContent{
+	word-break:break-word;
+	padding-top:15px;
+	padding-bottom:10px;
+	padding-right:18px;
+	padding-left:18px;
+	text-align: left;
+	}
+	.endrTextContent img{
+	height:auto !important;
+	}
+	.endrDividerBlock{
+	table-layout:fixed !important;
+	}
+	body { margin:0 !important; }
+	div[style*="margin: 16px 0"] { margin:0 !important; }
+
+	body,#bodyTable{
+	background-color:#e4e3e4;
+	color:#999999;
+	font-family: 'Amazon Ember';
+	}
+	
+	.templateBlocks{
+	background-color:#FFFFFF;
+	border-top-width:0;
+	border-bottom-width:0;
+	padding-top:0;
+	padding-bottom:0;
+	font-size:15px;
+	line-height:185%;
+	text-align:left;
+	background-color:#FFFFFF;
+	}
+	
+	.templateQuoteBlocks{
+	background-color:#F04D44;
+	}
+	
+	#bodyCell{
+	border-top:0;
+	}
+
+	h1{
+	color:#455c64;
+	font-family: 'Amazon Ember';
+	font-size:30px;
+	font-style:normal;
+	font-weight:normal;
+	line-height:120%;
+	letter-spacing:normal;
+	padding-top:2px;
+	padding-bottom:2px;
+	}
+
+	a{
+	color:#e74c3c;
+	font-weight:normal;
+	text-decoration:underline;
+	}
+
+	h2{
+	color:#848484;
+	font-family: 'Amazon Ember';
+	font-size:15px;
+	font-style:normal;
+	font-weight:normal;
+	line-height:145%;
+	letter-spacing:1px;
+	padding-top:5px;
+	padding-bottom:4px;
+	}
+
+	h3{
+	color:#455c64;
+	font-family: 'Amazon Ember';
+	font-size:20px;
+	font-style:normal;
+	font-weight:normal;
+	line-height:140%;
+	letter-spacing:normal;
+	text-align:left;
+	padding-top:2px;
+	padding-bottom:2px;
+	}
+
+	h4{
+	color:#666666;
+	font-family: 'Amazon Ember';
+	font-size:16px;
+	font-style:normal;
+	font-weight:normal;
+	line-height:125%;
+	letter-spacing:normal;
+	text-align:left;
+	padding-top:11px;
+	padding-bottom:4px;
+	}
+
+	h5{
+	color:#ffffff;
+	font-family: 'Amazon Ember';
+	font-size:20px;
+	font-style:normal;
+	font-weight:normal;
+	line-height:135%;
+	letter-spacing:normal;
+	text-align:left;
+	padding-top:11px;
+	padding-right:20px;
+	padding-bottom:8px;
+	padding-left:20px;
+	}
+
+	h6{
+	color:#ffffff;
+	font-family: 'Amazon Ember';
+	font-size:26px;
+	font-style:normal;
+	font-weight:normal;
+	line-height:135%;
+	letter-spacing:normal;
+	text-align:right;
+	padding-top:11px;
+	padding-right:20px;
+	padding-bottom:8px;
+	padding-left:20px;
+	}
+
+	#templatePreheader{
+	border-top:0;
+	border-bottom:0;
+	padding-top:4px;
+	padding-bottom:12px;
+	}
+
+	#templatePreheader .endrTextContent,#templatePreheader .endrTextContent p{
+	color:#fbfbfb;
+	font-family: 'Amazon Ember';
+	font-size:12px;
+	line-height:150%;
+	text-align:center;
+	}
+
+	#templatePreheader .endrTextContent a,#templatePreheader .endrTextContent p a{
+	color:#fbfbfb;
+	font-weight:normal;
+	text-decoration:underline;
+	}
+
+	#templateHeader{
+	background-color:#303942;
+	border-top:0px solid #e4e3e4;
+	border-bottom:0;
+	padding-top:0px;
+	padding-bottom:0px;
+	}
+
+	#templateHeader .endrTextContent,#templateHeader .endrTextContent p{
+	color:#ffffff;
+	font-family: 'Amazon Ember';
+	font-size:13px;
+	line-height:100%;
+	text-align:right;
+	}
+
+	#templateHeader .endrTextContent,#templateHeader .endrTextContent h1{
+	color:#ffffff;
+	font-family: 'Amazon Ember';
+	font-size:20px;
+	line-height:100%;
+	text-align:right;
+	}
+
+	#templateHeader .endrTextContent a,#templateHeader .endrTextContent p a{
+	color:#ffffff;
+	font-weight:normal;
+	text-decoration:none;
+	}
+
+	#templateSeparator{
+	padding-top:8px;
+	padding-bottom:8px;
+	}
+
+	.templateLowerBody{
+	background-color:#455C64;
+	border-bottom:0;
+	padding-top:1px;
+	padding-bottom:1px;
+	}
+
+	.templateLowerBody .endrTextContent,.templateLowerBody .endrTextContent p{
+	color:#ffffff;
+	font-family: 'Amazon Ember';
+	font-size:13px;
+	line-height:150%;
+	text-align:left;
+	}
+
+	.templateLowerBody .endrTextContent a,.templateLowerBody .endrTextContent p a{
+	color:#ffffff;
+	font-weight:normal;
+	text-decoration:underline;
+	}
+
+	.templateLowerBody .endrTextContent h1 {
+	color:#ffffff;
+	font-weight:700;
+	font-size:18px;
+	}
+
+	.templateSocial{
+	background-color:#e4e3e4;
+	padding-top:13px;
+	padding-bottom:3px;
+	}
+
+	#templateFooter{
+	border-top:0;
+	border-bottom:0;
+	padding-top:5px;
+	padding-bottom:5px;
+	}
+
+	#templateFooter .endrTextContent,#templateFooter .endrTextContent p{
+	color:#fbfbfb;
+	font-family: 'Amazon Ember';
+	font-size:12px;
+	line-height:150%;
+	text-align:center;
+	}
+
+	#templateFooter .endrTextContent a,#templateFooter .endrTextContent p a{
+	color:#fbfbfb;
+	font-weight:normal;
+	text-decoration:underline;
+	}
+	
+	@media only screen and (min-width:768px){
+	.templateContainer{
+	width:600px !important;
+	}
+	}	
+	
+	@media only screen and (max-width: 480px){
+	
+	.templateHeader{
+		display: none;
+	}
+		
+	.bigimage .endrImageContent{
+	padding-top:0px !important;
+
+	}
+	.templateContainer{
+	width:100% !important;
+	max-width:600px;
+	}	@media only screen and (max-width: 480px){
+	body,table,td,p,a,li,blockquote{
+	-webkit-text-size-adjust:none !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	body{
+	width:100% !important;
+	min-width:100% !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	#bodyCell{
+	padding-top:10px !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	.columnWrapper{
+	max-width:100% !important;
+	width:100% !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	.endrImage{
+	width:100% !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	.endrCaptionTopContent,.endrCaptionBottomContent,.endrTextContentContainer,.endrBoxedTextContentContainer,.endrImageGroupContentContainer,.endrCaptionLeftTextContentContainer,.endrCaptionRightTextContentContainer,.endrCaptionLeftImageContentContainer,.endrCaptionRightImageContentContainer,.endrImageCardLeftTextContentContainer,.endrImageCardRightTextContentContainer{
+	max-width:100% !important;
+	width:100% !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	.endrBoxedTextContentContainer{
+	min-width:100% !important;
+	}
+	} @media only screen and (max-width: 480px){
+	.column{
+	width:100% !important;
+	max-width:100% !important;
+	}
+	} @media only screen and (max-width: 480px){
+	.endrImageGroupContent{
+	padding:9px !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	.endrCaptionLeftContentOuter .endrTextContent,.endrCaptionRightContentOuter .endrTextContent{
+	padding-top:9px !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	.endrImageCardTopImageContent,.endrCaptionBlockInner .endrCaptionTopContent:last-child .endrTextContent{
+	padding-top:18px !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	.endrImageCardBottomImageContent{
+	padding-bottom:9px !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	.endrImageGroupBlockInner{
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	.endrImageGroupBlockOuter{
+	padding-top:9px !important;
+	padding-bottom:9px !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	.endrTextContent,.endrBoxedTextContentColumn{
+	padding-right:18px !important;
+	padding-left:18px !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	.endrImageCardLeftImageContent,.endrImageCardRightImageContent{
+	padding-right:18px !important;
+	padding-bottom:0 !important;
+	padding-left:18px !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	.mcpreview-image-uploader{
+	display:none !important;
+	width:100% !important;
+	}
+	}	@media only screen and (max-width: 480px){
+
+	h1{
+	font-size:22px !important;
+	line-height:125% !important;
+	}
+	}	@media only screen and (max-width: 480px){
+
+	h2{
+	font-size:20px !important;
+	line-height:125% !important;
+	}
+	}	@media only screen and (max-width: 480px){
+
+	h3{
+	font-size:18px !important;
+	line-height:125% !important;
+	}
+	}	@media only screen and (max-width: 480px){
+
+	h4{
+	font-size:16px !important;
+	line-height:150% !important;
+	}
+	}	@media only screen and (max-width: 480px){
+	
+	.endrBoxedTextContentContainer .endrTextContent,.endrBoxedTextContentContainer .endrTextContent p{
+	font-size:14px !important;
+	line-height:150% !important;
+	}
+	}	@media only screen and (max-width: 480px){
+
+	#templatePreheader{
+	display:block !important;
+	}
+	}	@media only screen and (max-width: 480px){
+
+	#templatePreheader .endrTextContent,#templatePreheader .endrTextContent p{
+	font-size:12px !important;
+	line-height:150% !important;
+	}
+	}	@media only screen and (max-width: 480px){
+
+	#templateHeader .endrTextContent,#templateHeader .endrTextContent p{
+	font-size:16px !important;
+	line-height:100% !important;
+	text-align:center !important;
+	}
+
+	#templateHeader .endrTextContent, #templateHeader .endrTextContent h1{
+	font-size:20px !important;
+	line-height:100% !important;
+	padding-bottom:10px !important;
+	}
+	}	@media only screen and (max-width: 480px){
+
+	#templateUpperBody .endrTextContent,#templateUpperBody .endrTextContent p{
+	font-size:16px !important;
+	line-height:150% !important;
+	}
+	
+	}	@media only screen and (max-width: 480px){
+
+	#templateColumns .columnContainer .endrTextContent,#templateColumns .columnContainer .endrTextContent p{
+	font-size:16px !important;
+	line-height:150% !important;
+	}
+	}	@media only screen and (max-width: 480px){
+
+	.templateLowerBody .endrTextContent,.templateLowerBody .endrTextContent p{
+	font-size:16px !important;
+	line-height:150% !important;
+	text-align:center !important;
+	}
+	}	@media only screen and (max-width: 480px){
+
+	#templateFooter .endrTextContent,#templateFooter .endrTextContent p{
+	font-size:12px !important;
+	line-height:150% !important;
+	}
+	}
+</style>
+
+<!--[if mso]>
+<style type="text/css">
+body, table, td {font-family: 'Amazon Ember';}
+h1 {font-family: 'Amazon Ember';}
+h2 {font-family: 'Amazon Ember';}
+h3 {font-family: 'Amazon Ember';}
+h4 {font-family: 'Amazon Ember';}
+h5 {font-family: 'Amazon Ember';}
+h6 {font-family: 'Amazon Ember';}
+h7 {font-family: 'Amazon Ember';}
+p {font-family: 'Amazon Ember';}
+</style>
+<![endif]-->
+
+<!--[if gt mso 15]>
+<style type="text/css" media="all">
+/* Outlook 2016 Height Fix */
+table, tr, td {border-collapse: collapse;}
+tr {border-collapse: collapse; }
+body {background-color:#ffffff;}
+</style>
+<![endif]-->    </head>
+
+    <body>
+        <center class="wrapper" style="width:100%;table-layout:fixed;background-color:#e4e3e4;">
+  <div class="webkit" style="max-width:600px;margin:0 auto;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="border-collapse:collapse;height:100%;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;width:100%;background-color:#e4e3e4;color:#5a5a5a;font-family:'Lato', Helvetica, Arial, sans-serif;">
+        <tbody><tr>
+            <td align="center" valign="top" id="bodyCell" style="height:100%;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;width:100%;padding-top:10px;padding-bottom:10px;border-top-width:0;">
+<!-- BEGIN TEMPLATE // -->
+<!--[if (gte mso 9)|(IE)]>
+<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;border-collapse:collapse;" >
+	<tr>
+	<td align="center" valign="top" width="600" style="width:600px;" >
+		<![endif]-->
+		<table border="0" cellpadding="0" cellspacing="0" class="templateContainer" style="width:100%;max-width:600px;border-collapse:collapse;">
+		<tbody><tr>
+		<td>
+        <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: 'Amazon Ember';">
+            Ship by: 01/19/2024, Standard Shipping
+        </div>
+
+        <!-- BLOCK Logo Center -->
+ <table class="one-column" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-spacing:0;">
+					<tbody><tr valign="top" style="border-top-width:0;border-bottom-width:0;font-size:14px;line-height:185%;text-align:left;">
+						<td valign="top" class="templateLowerBody" style="background-color:#2a323a;">
+                        	<table border="0" cellpadding="0" cellspacing="0" width="100%" class="endrTextBlock" style="min-width:100%;border-collapse:collapse;background-color:#2a323a;" bgcolor="#2a323a">
+								<tbody class="endrTextBlockOuter">
+									<tr>
+										<td valign="top" class="endrTextBlockInner">
+											<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" class="endrTextContentContainer" style="min-width:100%;border-collapse:collapse;" bgcolor="#2a323a">
+											<tbody>
+											<tr>
+          <td class="templateHeader" valign="top" style="padding: 20px 0; padding-left:40px">
+          <img align="center" alt="" src="https://m.media-amazon.com/images/G/01/SPACE/logo-selling_coach.png" width="200" style="max-width:200px;padding-bottom:0;display:inline !important;vertical-align:bottom;border-width:0;height:auto;outline-style:none;text-decoration:none;-ms-interpolation-mode:bicubic;">
+          </td>
+                        					</tr>
+                                            </tbody>
+                                            </table>
+                                       </td>
+                                   </tr>
+                             </tbody>
+                             </table>
+						</td>
+					</tr>
+					</tbody></table>
+<!-- ENDR Header  -->
+
+
+</td>
+</tr>
+</tbody></table>
+
+<table border="0" cellpadding="0" cellspacing="0" class="templateContainer" width="100%" style="width:100%;max-width:600px;border-collapse:collapse;background-color:#ffffff;" bgcolor="#ffffff">
+<tbody><tr>
+<td>
+        <table class="one-column">
+            <tbody><tr valign="top" class="templateBlocks">
+                <td valign="top">
+                    <table class="endrTextBlock">
+                        <tbody class="endrTextBlockOuter">
+                            <tr>
+                                <td valign="top" class="endrTextBlockInner">
+                                    <table align="left" class="endrTextContentContainer">
+                                        <tbody>
+                                            <tr>
+                                                <td valign="top" class="endrTextContent" align="center">
+                                                    <p style="text-align:left;margin-top:10px;margin-bottom:10px;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;line-height:185%;">
+                                                        
+
+
+
+    
+
+
+</p><div style="text-align:left">
+        
+
+
+<p>Congratulations, you have a new order on Amazon! Your customer is expecting this to ship by 01/19/2024.</p>
+
+
+     <p>Please review your order and buy shipping for it:</p>
+
+ <center>
+    <div style="margin: 20px 0px 20px 10px; padding:10px; display:inline-block; background-color:#006574;">
+    <a style="color:#fff; text-decoration:none;" href="https://sellercentral.amazon.com/nms/sellermobile/redirect/31d75abb-24c4-3c58-8b91-7662c00551fb?nt=SOLD_SHIP_NOW&amp;sk=OfIa5YDmPrUnXsUjeANk-9sXGFzgFCJSN-Fo34ummUrtDeVCKM9Wsid9okPONEgAKvGbxluwXjtxi9iRFY1p9g&amp;n=1&amp;u=aHR0cHM6Ly9zZWxsZXJjZW50cmFsLmFtYXpvbi5jb20vb3JkZXJzLXYzL29yZGVyLzExMi0xNDA0NzQzLTYwMjc0MzIvYnV5LXNoaXBwaW5nP3JlZl89eHhfZW1haWxfYm9keV9zaGlw">
+        View Order
+    </a>
+</div>
+
+        <div style="margin: 20px 0px 20px 20px; padding:10px; display:inline-block; background-color:#e3eced;">
+    <a style="color:#002f36; text-decoration:none;" href="https://sellercentral.amazon.com/nms/sellermobile/redirect/5ce962c0-4782-326f-8c89-0a346a56989c?nt=SOLD_SHIP_NOW&amp;sk=wv86Mq83E_ss6ATdb5C_CiCgTtU--hzRB2IjBydne1xtD27ejNUWXXWcyevg8Nh-s2910oMtS4sCbluPhiZE_Q&amp;n=1&amp;u=aHR0cHM6Ly9zZWxsZXJjZW50cmFsLmFtYXpvbi5jb20vaGVscC9odWIvcmVmZXJlbmNlL0cyMDAyMDAwNDA_cmVmXz14eF9lbWFpbF9ib2R5X2hlbHA">
+        Get Help Shipping Your Order
+    </a>
+</div>
+</center>
+<h3>Order Details</h3>
+<b>Order ID:</b> 112-1404743-6027432
+<br>
+<b>Order date:</b> 01/11/2024
+<br>
+    <b>Please ship this order using:</b> Standard Shipping
+    <br>
+<br>
+        
+                            <b>Ship by:</b> 01/19/2024
+        <br>
+                    <b>Item:</b> The Mighty Myth Personalized Baseball Cap, 3D Printed Excavator Baseball Fitted Hats for Men, Ball Caps for Teen Boys, Baseball Hats for Men, Caps for Men
+    <br>
+                                                        <b>Condition:</b> New
+                        <br>
+                                            <b>SKU:</b> GNBC00049
+    <br>
+                <b>Quantity:</b> 1
+    <br>
+                            <b>Price:</b> $24.99
+    <br>
+                                                                                                                                        <b>Shipping:</b> $7.98
+        <br>
+                                                                                                                    <b>Amazon fees:</b> -$5.60
+    <br>
+                                                                                                                                                        <b>Your earnings:</b> $27.37
+    <br>
+    
+             
+                
+    
+    
+    <hr>
+    <h3>Tips to get you started</h3>
+    
+    <img src="https://m.media-amazon.com/images/G/01/NA_MFN_HUB/ABSlogo.png" style="width:10%; min-width:150px; padding-top:15px;">
+    <p>Purchase shipping labels through <a href="https://sellercentral.amazon.com/nms/redirect/53cfc068-9652-36e9-8217-7f8071cbfae5?nt=SOLD_SHIP_NOW&amp;sk=DADxGG1vA5xstVmeUSoN_GYTkhGFCMT3IaCEh9SViF-mRmLwP9qV6UdfjTyB60-i2-SHSDb5foPCThaMv5byBQ&amp;n=1&amp;u=aHR0cDovL2dvLmFtYXpvbnNlbGxlcnNlcnZpY2VzLmNvbS9hYnMtc3Nu">Amazon Buy Shipping</a> using Amazon's pre-negotiated rates or your own carrier rates, and get benefits like account health protection, claims protection on late deliveries, and more.</p>
+    
+    <center>
+        <div style="margin: 20px 0px 20px 10px; padding:10px; display:inline-block; background-color:#006574;">
+    <a style="color:#fff; text-decoration:none;" href="https://sellercentral.amazon.com/nms/redirect/94239ccc-582a-3d71-bd95-eb5e040237db?nt=SOLD_SHIP_NOW&amp;sk=ssJQH1NLPfl-xLvksUm2jpvR5QgfPJzWlZqDsb1UKqJL9nFtBDtd0P9O2Q8hbQGbozBRz9AK9L4ehJpcbCSiXA&amp;n=1&amp;u=aHR0cHM6Ly9nby5hbWF6b25zZWxsZXJzZXJ2aWNlcy5jb20vYWJzLXNzbi1sZWFybi1tb3Jl">
+        Learn More
+    </a>
+</div>
+    </center>
+
+    <img src="https://m.media-amazon.com/images/G/01/NA_MFN_HUB/veeqo-logo.png" style="width:10%; min-width:150px;">
+    <p>Selling on more channels than Amazon? Try Veeqo, a FREE to use multi-channel shipping software that automates your inventory across channels.</p>
+    <center>
+        <div style="margin: 20px 0px 20px 10px; padding:10px; display:inline-block; background-color:#006574;">
+    <a style="color:#fff; text-decoration:none;" href="https://sellercentral.amazon.com/nms/redirect/36aa9862-5791-3453-9adc-08337b11fcd6?nt=SOLD_SHIP_NOW&amp;sk=4_R-tEQVoAzRGp08eRGAeoptccIcbTfSIRNGmi0k0x6QmJV4A0RCeTuKEXZViVi1cylEEAOKpSTQGHE3p6z9PA&amp;n=1&amp;u=aHR0cHM6Ly9nby5hbWF6b25zZWxsZXJzZXJ2aWNlcy5jb20vdmVlcW8tc3NuLWxlYXJuLW1vcmU_dXRtX3NvdXJjZT1hbWF6b24mdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249VVMtc29sZC1zaGlwLW5vdyZ1dG1fdGVybT1zcGFjZSZ1dG1fY29udGVudD1sZWFybi1tb3Jl">
+        Learn More
+    </a>
+</div>
+    </center>
+
+
+</div>
+
+
+                                                    <p></p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody></table>
+
+
+                
+
+
+					<table border="0" cellpadding="0" cellspacing="0" class="templateContainer" width="100%" style="width:100%;max-width:600px;border-collapse:collapse;">
+					<tbody><tr>
+					<td>
+				
+					<!-- BLOCK Footer About Us -->
+					<table class="one-column" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-spacing:0;">
+					<tbody><tr valign="top" style="border-top-width:0;border-bottom-width:0;font-size:14px;line-height:185%;text-align:left;">
+						<td valign="top" class="templateLowerBody" style="background-color:#2a323a;">
+                        	<table border="0" cellpadding="0" cellspacing="0" width="100%" class="endrTextBlock" style="min-width:100%;border-collapse:collapse;background-color:#2a323a;" bgcolor="#2a323a">
+								<tbody class="endrTextBlockOuter">
+									<tr>
+										<td valign="top" class="endrTextBlockInner">
+											<center style="margin-top: 20px;">
+                        	<a style="padding: 7px 24px; text-decoration: none; background: #fff; border: 1px solid #EC937C; border-radius: 5px; color: #7F1809; font-family: 'Amazon Ember'; font-size: 13px; font-weight: 600;display: inline-block; margin-bottom: 10px" href="https://sellercentral.amazon.com/nms/redirect/8ab7c535-2f0f-3cc7-8925-4d270d277cf0?nt=SOLD_SHIP_NOW&amp;sk=JohRzWKEIBHyx_gqRzctMudz4gB3IJGG8RxkJZMQrm7UTb03QCsQBwxqrp9hcoSrUmjVPseT4oIyRP7uM7KyQw&amp;n=1&amp;u=aHR0cHM6Ly9zZWxsZXJjZW50cmFsLmFtYXpvbi5jb20vbm90aWZpY2F0aW9ucy9mZWVkYmFjaz9kZWxpdmVyeUlkPTE5MzUxNDIzNjA5NzE0MDkmY29tbXVuaWNhdGlvbk5hbWU9U09MRF9TSElQX05PVyZkZWxpdmVyeUNoYW5uZWw9RU1BSUw">
+                    <img src="https://m.media-amazon.com/images/G/01/space/icon.png" style="margin-right: 10px;vertical-align: middle;" width="20" height="20">Report an issue with this email
+                  </a>
+                        </center><p style="text-align:center !important;margin-top:10px;margin-bottom:10px;margin-right:10px;margin-left:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;color:#ffffff;font-family:'Amazon Ember';font-size:13px;line-height:150%;">If you have any questions visit: <a href="https://sellercentral.amazon.com/nms/sellermobile/redirect/296602d8-5307-3c36-a33d-7f6f0fdf4b3c?nt=SOLD_SHIP_NOW&amp;sk=WDRx3n1ok190YNHO4LHjYonxx6RkqX9Gd8AVh9xkjySZ73k9eK9N85ujnuGoXZJhgsv8mRMCTVtRaQy0licG2Q&amp;n=1&amp;u=aHR0cHM6Ly9zZWxsZXJjZW50cmFsLmFtYXpvbi5jb20" metric="help" style="text-decoration: none; color: #ffffff;">Seller Central</a><br><br>
+						To change your email preferences visit: <a href="https://sellercentral.amazon.com/nms/redirect/9e189301-88a3-3ac5-bae8-b669557da70e?nt=SOLD_SHIP_NOW&amp;sk=g1X4UWrxMakGKgfODJu1ye3xFJPEfebQ-tyT5Rt8PcQNaMCTp-M-n0L52VIkqpS1u2Sac9KKvEmmFNg2SNPjUw&amp;n=1&amp;u=aHR0cHM6Ly9zZWxsZXJjZW50cmFsLmFtYXpvbi5jb20vbm90aWZpY2F0aW9ucy9wcmVmZXJlbmNlcy9yZWY9aWRfbm90aWZwcmVmX2RuYXZfeHhf" metric="optout" style="text-decoration: none; color: #ffffff;">Notification Preferences</a><br><br>
+												We hope you found this message to be useful. However, if you'd rather not receive future e-mails of this sort from Amazon.com, please opt-out <a href="https://sellercentral.amazon.com/nms/redirect/aa783bfb-c24c-3672-b217-8fce8b03b073?nt=SOLD_SHIP_NOW&amp;sk=jWnM2F-6AImGZHx_E528Z6TkMQutIENyRGcwV1cRfQe9b75Lzc8PtwmMXx0m_3_9HhMl2daRTeqORX0-pDSbsg&amp;n=1&amp;u=aHR0cHM6Ly9zZWxsZXJjZW50cmFsLmFtYXpvbi5jb20vbm90aWZpY2F0aW9ucy9wcmVmZXJlbmNlcy9vcHRvdXQ_b3B0b3V0SWQ9YTRiY2QyMjgtNDNjOS00NDlkLWI3ZWEtNmNlNzc2OWQ4Y2E0" metric="optout" style="text-decoration: none; color: #ffffff;">here.</a><br><br>
+												Copyright  2024 Amazon, Inc, or its affiliates. All rights reserved.<br> 
+						Amazon.com, 410 Terry Avenue North, Seattle, WA 98109-5210<br></p><table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" class="endrTextContentContainer" style="min-width:100%;border-collapse:collapse;" bgcolor="#2a323a">
+											<tbody>
+											<tr>
+                        
+                        
+                        
+                        					</tr>
+                                            </tbody>
+                                            </table>
+                                       </td>
+                                   </tr>
+                             </tbody>
+                             </table>
+						</td>
+					</tr>
+					</tbody></table>
+					<!-- BLOCK Footer About Us -->
+					</td>
+					</tr>
+					</tbody></table>
+					
+					<table border="0" cellpadding="0" cellspacing="0" class="templateContainer" style="width:100%;max-width:600px;border-collapse:collapse;">
+					<tbody><tr>
+					<td>
+				
+					</td>
+					</tr>
+					</tbody></table>
+					<!--[if (gte mso 9)|(IE)]>
+				</td>
+				</tr>
+			</table>
+			<![endif]-->
+			<!-- // END TEMPLATE -->
+			</td>
+		</tr>
+		</tbody></table>    
+
+</td></tr></tbody></table></div></center><img src="https://sellercentral.amazon.com/nms/img/63279869-9bb8-34ca-aece-9edf9955ec32?sk=ZBHxSn-WBIqTpz1LJleablmEvlofHlD25-Idosd31oFlPOrEKy3pzk5vOciwgOaSLktvHfbblNKtXhGI1xlLBQ&amp;n=1">
+<div id="spc-watermark">
+  <p style="font-size: 10px !important;padding-bottom: 10px !important;display: table !important;margin: 5px auto 10px !important;text-align: center !important;color: #a2a2a2 !important;font-family: 'Amazon Ember' !important;font-weight: 400 !important;">SPC-USAmazon-1935142360971409</p>
+</div></body></html>
+------=_Part_1080782_1457308405.1705024102763--
