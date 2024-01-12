@@ -1,0 +1,193 @@
+function getExistingPrimaryKeyValues(primaryKey, tableHeader, sheet) {
+  const values = sheet.getDataRange().getValues();
+  const primaryKeyIndex = tableHeader.indexOf(primaryKey)
+  let keyValues = new Set();
+  values.forEach(function(row, key) {
+    if (key == 0 || row[0] == '') {
+      return;
+    }
+    keyValues.add(`${row[primaryKeyIndex]}`);
+  });
+  return keyValues;
+}
+
+
+function searchEmailWith(filter) {
+  const threads = GmailApp.search(filter);
+  let messages = [];
+  threads.forEach(function(thread) {
+    thread.getMessages().forEach(function(mess){
+      messages.push(mess);
+    });
+  });
+
+  console.log(`searchEmailWith filter: '${filter}'. Got: ${messages.length}`)
+
+  return messages.reverse();
+}
+
+
+function dataToRow(tableHeader, data) {
+  return tableHeader.map(columnName => {
+    return data[columnName]
+  })
+}
+
+function parseEmails(emails, columns) {
+  return emails.map(email => {
+    return columns
+      .reduce((obj, [columnName, extract]) => {
+        obj[columnName] = extract(email)
+        return obj
+      }, {})
+  })
+}
+
+
+function concatAll(prefix, separator, suffix) {
+  return (matches) => prefix + matches.join(separator).trim() + suffix
+}
+
+function replaceAll(subStr, replStr) {
+  return (matches) => matches.replaceAll(subStr, replStr)
+}
+
+function fromEmailMessageWithPattern(pattern, getter, f = concatAll("", " ", "")) {
+  return (message) => {
+    const text = getter(message)
+
+    let matches
+
+    if (pattern.global) {
+
+
+      matches = [...text.matchAll(pattern)]
+        .map(matched => {
+          const [_, ...tail] = matched
+          return tail
+        })
+        .flat()
+
+    } else {
+      const matched = text.match(pattern)
+      if (matched) {
+        const [_, ...tail] = matched
+        matches = tail
+      } else {
+        matches = []
+      }
+    }
+
+    if (matches.length > 0) {
+      return f(matches)
+    } else {
+      return ``
+    }
+  }
+}
+
+function decodeHTMLEntities(str) {
+  let decoded = ''
+  const xml = XmlService
+  .parse('<!DOCTYPE html [ <!ENTITY amp "&#38;"> <!ENTITY ndash "&#8211;"> <!ENTITY apos "&#39;"> ]><html>' + '<div>' + str + '</div>' + '</html>')
+  .getRootElement()
+  .getChildren().forEach(function(el){
+    decoded+=el.getValue();
+  });
+  return decoded
+}
+
+
+function getRecipientName() {
+  return message => message.getTo()
+}
+
+function getMessageId() {
+  return message => message.getId()
+}
+
+function fromEmail(pattern, f = concatAll(""," ", "")) {
+  return (message) => {
+    const plainText = message.getPlainBody()
+    const htmlText = message.getBody()
+
+    let plainMatches = []
+
+    let htmlMatches = []
+
+    if (pattern.global) {
+      plainMatches = [...plainText.matchAll(pattern)]
+        .map(matched => {
+          const [_, ...tail] = matched
+          return tail
+        })
+        .flat()
+
+      htmlMatches = [...htmlText.matchAll(pattern)]
+        .map(matched => {
+          const [_, ...tail] = matched
+          return tail
+        })
+        .flat()
+    } else {
+      const plainMatched = plainText.match(pattern)
+
+      const htmlMatched = htmlText.match(pattern)
+
+      if (plainMatched) {
+        const [_, ...tail] = plainMatched
+        plainMatches = tail
+      } else if (!plainMatched && htmlMatched) {
+        const [_, ...tail] = htmlMatched
+        htmlMatches = tail
+      } else {
+        plainMatches = plainMatches
+        htmlMatches = htmlMatches
+      }
+    }
+
+    if (plainMatches.length > 0) {
+      return decodeHTMLEntities(f(plainMatches))
+    } else if (plainMatches.length <= 0 && htmlMatches.length > 0) {
+      return decodeHTMLEntities(f(htmlMatches))
+    } else {
+      return ``
+    }
+  }
+}
+
+function fromEmailPlainBody(pattern, f = concatAll(""," ", "")) {
+  return fromEmailMessageWithPattern(pattern, message => message.getPlainBody(), f)
+}
+
+function fromEmailBody(pattern, f = concatAll(""," ", "")) {
+  return fromEmailMessageWithPattern(pattern, message => message.getBody(), f)
+}
+
+function fromEmailSubject(pattern, f = concatAll(""," ", "")) {
+  return fromEmailMessageWithPattern(pattern, message => message.getSubject(), f)
+}
+
+function fromEmailMessage(getter, f = concatAll("", " ", "")) {
+  return (message) => {
+    const got = getter(message)
+    return Array.isArray(got) ? f(got) : f([got])
+  }
+}
+
+function always(x) {
+  return (y) => x
+}
+
+function yesterday() {
+  const yesterday = new Date(Date.now() - 86400000);
+  const dd = String(yesterday.getDate()).padStart(2, '0');
+  const mm = String(yesterday.getMonth() + 1).padStart(2, '0');
+  const yyyy = yesterday.getFullYear();
+  return yyyy + '/' + mm + '/' + dd;
+}
+
+function formatDate(date) {
+  const options = { year: 'numeric', month: 'short', day: 'numeric' };
+  return date.toLocaleDateString(undefined,options)
+}
