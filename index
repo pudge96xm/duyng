@@ -1,0 +1,41 @@
+function runMain() {
+  const MAILS = [FBM,FBA]
+  MAILS.forEach(x =>
+    run(x)
+  )
+}
+
+function run(gmailConfig) {
+  const SPREAD_SHEET = SpreadsheetApp.getActiveSpreadsheet()
+  console.log(gmailConfig.name)
+  const SHEET = SPREAD_SHEET.getSheetByName(gmailConfig.name)
+  const IS_NEW_SHEET = SHEET.getLastRow() == 0
+  const TABLE_HEADER = (() => {
+    return IS_NEW_SHEET ? gmailConfig.CONFIG.columns.map(([columnName, _]) => columnName) : SHEET.getDataRange().getValues()[0]
+  })()
+  const filter = IS_NEW_SHEET ? gmailConfig.CONFIG.emailFilter : gmailConfig.CONFIG.emailFilter
+  // const filter = gmailConfig.CONFIG.emailFilter
+  console.log (filter)
+  const emails = searchEmailWith(filter);
+  const existingPrimaryKeyValues = getExistingPrimaryKeyValues(gmailConfig.CONFIG.primaryKey, TABLE_HEADER, SHEET)
+  const parsedEmails = parseEmails(emails, gmailConfig.CONFIG.columns)
+  const insertingRows = parsedEmails
+    .filter(data => !existingPrimaryKeyValues.has(data[gmailConfig.CONFIG.primaryKey]))
+    .map(data => dataToRow(TABLE_HEADER, data))
+
+
+  console.log(`inserting ${insertingRows.length} rows`)
+  if (insertingRows.length > 0) {
+    const rows = IS_NEW_SHEET ? [TABLE_HEADER, ...insertingRows] : insertingRows
+    LockService.getScriptLock().waitLock(60000);
+
+    SHEET
+    .getRange(
+      SHEET.getLastRow() + 1,
+      1,
+      rows.length,
+      TABLE_HEADER.length
+    )
+    .setValues(rows);
+  } 
+}
