@@ -1,0 +1,15 @@
+const FBA = {
+  name: 'FBA',
+  CONFIG: {
+    emailFilter: 'from: donotreply@amazon.com and subject: Amazon has shipped your sold item',
+    columns: [
+      ["Order ID", fromEmailPlainBody(/Order number: (.*)/)],
+      ["Email", getRecipientName()],
+      ["Order Item", fromEmailBody(/Shipped by.*?<td>(\D[^<]+)/s)],
+      ["Quantity", fromEmailBody(/Shipped by.*?<td>([^<]+)/gs)],
+      ["Shipped by", fromEmailBody(/Shipped by.*?right.*?([A-Z]+[^$\r\n]+)/s)],
+      ["Tracking", fromEmailPlainBody(/Tracking: ([A-Za-z]+[^\s]+)/)]
+    ],
+    primaryKey: "Order ID"
+  }
+}
