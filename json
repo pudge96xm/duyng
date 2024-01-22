@@ -1,0 +1,4494 @@
+{
+  "payload": {
+    "Orders": [
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "wvd0pvp49yb9cy3@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-1981119-0859449",
+        "EarliestDeliveryDate": "2023-10-13T07:00:00Z",
+        "EarliestShipDate": "2023-10-03T07:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-10-05T06:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2023-10-26T06:59:59Z",
+        "PurchaseDate": "2023-10-01T19:53:07Z",
+        "ShippingAddress": {
+          "StateOrRegion": "il",
+          "PostalCode": "62044",
+          "City": "greenfield",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "33.93"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-10-02T03:58:06Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "vm532xnp28b8kvl@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-4070461-6777054",
+        "EarliestDeliveryDate": "2023-10-16T07:00:00Z",
+        "EarliestShipDate": "2023-10-04T07:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 2,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-10-06T06:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2023-10-27T06:59:59Z",
+        "PurchaseDate": "2023-09-30T20:12:34Z",
+        "ShippingAddress": {
+          "StateOrRegion": "WA",
+          "PostalCode": "99133-9776",
+          "City": "GRAND COULEE",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "69.23"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-10-04T07:00:54Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "6fgcb7n6kzys2cy@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-6028264-0649801",
+        "EarliestShipDate": "2023-10-09T04:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-10-09T04:00:00Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-10-08T22:23:39Z",
+        "ShippingAddress": {
+          "StateOrRegion": "NJ",
+          "PostalCode": "08753-2419",
+          "City": "TOMS RIVER",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-6028264-0649801",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "21.95"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-10-09T15:08:02Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "zrmzg68bzn5jh15@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-7451776-9226609",
+        "EarliestShipDate": "2023-10-14T06:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-10-14T06:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-10-13T15:23:43Z",
+        "ShippingAddress": {
+          "StateOrRegion": "TN",
+          "PostalCode": "37211-5917",
+          "City": "NASHVILLE",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-7451776-9226609",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "28.35"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-10-14T21:37:03Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "f889m4m72q28gjz@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-3067365-4926669",
+        "EarliestShipDate": "2023-10-16T06:30:00Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-10-16T06:30:00Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-10-15T03:54:20Z",
+        "ShippingAddress": {
+          "StateOrRegion": "CT",
+          "PostalCode": "06070-1007",
+          "City": "SIMSBURY",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-3067365-4926669",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "25.47"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-10-16T06:49:53Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {},
+        "AmazonOrderId": "112-7270821-1738604",
+        "EarliestShipDate": "2023-10-19T07:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Canceled",
+        "NumberOfItemsShipped": 0,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-10-21T06:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-10-16T13:27:18Z",
+        "IsAccessPointOrder": false,
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "37.81"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-10-20T01:27:02Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "2fyhtlm31cppj47@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-8034736-3560223",
+        "EarliestShipDate": "2023-10-20T06:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-10-20T06:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-10-19T22:49:24Z",
+        "ShippingAddress": {
+          "StateOrRegion": "TX",
+          "PostalCode": "79705",
+          "City": "MIDLAND",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "114-8034736-3560223",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "23.76"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-10-21T03:05:43Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "rwtggpj3frx3zdw@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-7813244-5208238",
+        "EarliestDeliveryDate": "2023-11-03T07:00:00Z",
+        "EarliestShipDate": "2023-10-25T07:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-10-27T06:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2023-11-16T07:59:59Z",
+        "PurchaseDate": "2023-10-21T17:17:03Z",
+        "ShippingAddress": {
+          "StateOrRegion": "CT",
+          "PostalCode": "06339-1642",
+          "City": "LEDYARD",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "37.15"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-10-24T01:31:19Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "6bnhkd5j7mb0wqg@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-5166699-2671460",
+        "EarliestDeliveryDate": "2023-11-07T08:00:00Z",
+        "EarliestShipDate": "2023-10-27T07:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-10-31T06:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2023-11-18T07:59:59Z",
+        "PurchaseDate": "2023-10-25T02:54:33Z",
+        "ShippingAddress": {
+          "StateOrRegion": "NC",
+          "PostalCode": "28374-8002",
+          "City": "PINEHURST",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "37.38"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-10-27T01:36:24Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "zlfpktm2qs4f1qw@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-5606750-1001812",
+        "EarliestShipDate": "2023-10-27T06:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 6,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-10-27T06:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-10-26T21:04:01Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MD",
+          "PostalCode": "21061",
+          "City": "GLEN BURNIE",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-5606750-1001812",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": true,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "63.30"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-10-29T18:17:15Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "zcpqh5l8fs096dl@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-3468355-6166608",
+        "EarliestShipDate": "2023-11-02T06:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-02T06:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-01T21:45:19Z",
+        "ShippingAddress": {
+          "StateOrRegion": "VA",
+          "PostalCode": "22630-4141",
+          "City": "FRONT ROYAL",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-3468355-6166608",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.48"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-02T16:14:20Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "9xcx83w4fwwm53v@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-3799810-9428211",
+        "EarliestDeliveryDate": "2023-11-14T08:00:00Z",
+        "EarliestShipDate": "2023-11-03T07:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-07T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2023-11-28T07:59:59Z",
+        "PurchaseDate": "2023-10-31T11:40:06Z",
+        "ShippingAddress": {
+          "StateOrRegion": "FL",
+          "PostalCode": "32084-3078",
+          "City": "SAINT AUGUSTINE",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "48.40"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-03T03:22:02Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "n494bf2r9w6nwck@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-9063546-6003466",
+        "EarliestShipDate": "2023-11-05T06:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-05T06:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-04T16:51:50Z",
+        "ShippingAddress": {
+          "StateOrRegion": "ID",
+          "PostalCode": "83686",
+          "City": "Nampa",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-9063546-6003466",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.55"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-06T08:53:17Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "1v5qdg0vyty13j6@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-8230778-7153855",
+        "EarliestShipDate": "2023-11-07T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-07T07:59:59Z",
+        "ShipServiceLevel": "NextDay",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-02T21:37:16Z",
+        "ShippingAddress": {
+          "StateOrRegion": "FL",
+          "PostalCode": "33570-5526",
+          "City": "Ruskin",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-8230778-7153855",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "21.95"
+        },
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-06T19:50:02Z",
+        "ShipmentServiceLevelCategory": "NextDay"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "1v5qdg0vyty13j6@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-7859723-5748235",
+        "EarliestShipDate": "2023-11-06T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-06T07:59:59Z",
+        "ShipServiceLevel": "Standard",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-03T21:43:05Z",
+        "ShippingAddress": {
+          "StateOrRegion": "VA",
+          "PostalCode": "23435-2142",
+          "City": "SUFFOLK",
+          "CountryCode": "US",
+          "County": "SUFFOLK"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-7859723-5748235",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.95"
+        },
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-07T06:35:24Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "csj7jwg3vvd242b@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-7059457-0182662",
+        "EarliestShipDate": "2023-11-07T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 4,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-07T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-06T14:32:04Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MI",
+          "PostalCode": "48239-1220",
+          "City": "Redford Twp",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-7059457-0182662",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "42.20"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-07T15:31:19Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "5mp8pfqd63p4txw@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-5693791-7773002",
+        "EarliestShipDate": "2023-11-09T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-09T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-08T21:41:47Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MI",
+          "PostalCode": "48624",
+          "City": "Gladwin",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "114-5693791-7773002",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.55"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-11T07:00:49Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "6ml2ytfbn07qgfh@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-8810440-0129854",
+        "EarliestShipDate": "2023-11-11T03:45:00Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-11T03:45:00Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-09T04:39:44Z",
+        "ShippingAddress": {
+          "StateOrRegion": "AR",
+          "PostalCode": "72653-7252",
+          "City": "MOUNTAIN HOME",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-8810440-0129854",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.72"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-11T14:11:27Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "q8w02mb1lqvp2jm@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-4913286-2706647",
+        "EarliestShipDate": "2023-11-11T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-11T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-11T03:19:48Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MA",
+          "PostalCode": "01757",
+          "City": "Milford",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-4913286-2706647",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "12.30"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-11T18:45:41Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "7hc4471180fc47f@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-7453599-6387426",
+        "EarliestShipDate": "2023-11-12T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-12T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-11T22:30:08Z",
+        "ShippingAddress": {
+          "StateOrRegion": "OH",
+          "PostalCode": "43506-1509",
+          "City": "BRYAN",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-7453599-6387426",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "12.42"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-12T22:33:47Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "tl8n9s6kjj5sstg@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-3875392-2924208",
+        "EarliestShipDate": "2023-11-11T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-11T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-10T13:13:35Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MI",
+          "PostalCode": "48329-1607",
+          "City": "WATERFORD",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-3875392-2924208",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.55"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-13T02:31:13Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "tz6fpq8kr8s2kd4@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-5059570-8203414",
+        "EarliestShipDate": "2023-11-13T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 2,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-13T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-12T16:49:51Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MD",
+          "PostalCode": "20646-5409",
+          "City": "LA PLATA",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-5059570-8203414",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "21.10"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-13T06:25:44Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "vjyylr317m0kp6m@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-8729022-8630659",
+        "EarliestDeliveryDate": "2023-11-27T08:00:00Z",
+        "EarliestShipDate": "2023-11-15T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-17T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2023-12-08T07:59:59Z",
+        "PurchaseDate": "2023-11-11T17:57:18Z",
+        "ShippingAddress": {
+          "StateOrRegion": "IN",
+          "PostalCode": "46031-9419",
+          "City": "ATLANTA",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "77.48"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-14T06:43:56Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "8w5h8rk9qfqp7mw@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-9355424-3193055",
+        "EarliestShipDate": "2023-11-12T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-12T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-11T22:22:20Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MI",
+          "PostalCode": "49415-8908",
+          "City": "FRUITPORT",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-9355424-3193055",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.55"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-14T07:52:25Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "jf8nxp2ns62f0gn@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-8199170-2107434",
+        "EarliestDeliveryDate": "2023-11-28T08:00:00Z",
+        "EarliestShipDate": "2023-11-16T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-18T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2023-12-09T07:59:59Z",
+        "PurchaseDate": "2023-11-13T15:42:24Z",
+        "ShippingAddress": {
+          "StateOrRegion": "OH",
+          "PostalCode": "44305-1303",
+          "City": "AKRON",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "60.77"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-16T01:45:00Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "y3gcglx0xzpnqbq@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-6629612-5554627",
+        "EarliestDeliveryDate": "2023-11-28T08:00:00Z",
+        "EarliestShipDate": "2023-11-16T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-18T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2023-12-09T07:59:59Z",
+        "PurchaseDate": "2023-11-13T22:26:58Z",
+        "ShippingAddress": {
+          "StateOrRegion": "TN",
+          "PostalCode": "38125-8514",
+          "City": "MEMPHIS",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": true,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "41.44"
+        },
+        "PaymentMethodDetails": [
+          "Invoice"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-17T06:22:40Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "2mz7mr0kfllq5v6@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-2312987-9541826",
+        "EarliestDeliveryDate": "2023-12-04T08:00:00Z",
+        "EarliestShipDate": "2023-11-22T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-25T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2023-12-15T07:59:59Z",
+        "PurchaseDate": "2023-11-20T05:16:19Z",
+        "ShippingAddress": {
+          "StateOrRegion": "FL",
+          "PostalCode": "32828-5003",
+          "City": "ORLANDO",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "56.92"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-24T03:33:19Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "gv6vyvbkjybfxd2@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-4071824-7861807",
+        "EarliestShipDate": "2023-11-25T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-25T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-24T03:58:49Z",
+        "ShippingAddress": {
+          "StateOrRegion": "CA",
+          "PostalCode": "92879-0803",
+          "City": "CORONA",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-4071824-7861807",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.07"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-25T23:09:30Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "85z183k9r62yrxf@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-9268531-0365850",
+        "EarliestDeliveryDate": "2023-12-08T08:00:00Z",
+        "EarliestShipDate": "2023-11-29T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-01T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2023-12-21T07:59:59Z",
+        "PurchaseDate": "2023-11-24T23:39:28Z",
+        "ShippingAddress": {
+          "StateOrRegion": "WA",
+          "PostalCode": "98377-9623",
+          "City": "RANDLE",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "51.67"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-28T09:22:17Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "d17jj51yzkvvn2l@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-0503999-4597868",
+        "EarliestDeliveryDate": "2023-12-08T08:00:00Z",
+        "EarliestShipDate": "2023-11-29T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-01T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2023-12-21T07:59:59Z",
+        "PurchaseDate": "2023-11-24T18:03:35Z",
+        "ShippingAddress": {
+          "StateOrRegion": "CA",
+          "PostalCode": "91740-5807",
+          "City": "GLENDORA",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "37.41"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-28T09:23:27Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "jfw34p4n95syvzj@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-9754592-5186643",
+        "EarliestDeliveryDate": "2023-12-08T08:00:00Z",
+        "EarliestShipDate": "2023-11-29T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-01T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2023-12-21T07:59:59Z",
+        "PurchaseDate": "2023-11-26T08:04:47Z",
+        "ShippingAddress": {
+          "StateOrRegion": "OH",
+          "PostalCode": "44134-4743",
+          "City": "PARMA",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "36.65"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-29T00:55:50Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "wpbjc406h87wt33@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-1074162-5757044",
+        "EarliestDeliveryDate": "2023-12-07T08:00:00Z",
+        "EarliestShipDate": "2023-11-28T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-30T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2023-12-20T07:59:59Z",
+        "PurchaseDate": "2023-11-26T15:51:22Z",
+        "ShippingAddress": {
+          "StateOrRegion": "CO",
+          "PostalCode": "80403-1943",
+          "City": "GOLDEN",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "23.58"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-29T06:30:52Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "7l7h9d5cz8bqtjs@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-7502903-6666607",
+        "EarliestDeliveryDate": "2023-12-07T08:00:00Z",
+        "EarliestShipDate": "2023-11-28T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-30T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2023-12-20T07:59:59Z",
+        "PurchaseDate": "2023-11-25T15:44:10Z",
+        "ShippingAddress": {
+          "StateOrRegion": "WI",
+          "PostalCode": "53405-4216",
+          "City": "RACINE",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "23.03"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-29T12:24:09Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "cxn27m2cypfhd73@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-4049862-2044208",
+        "EarliestShipDate": "2023-11-28T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-28T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-28T01:01:19Z",
+        "ShippingAddress": {
+          "StateOrRegion": "NJ",
+          "PostalCode": "07721-1082",
+          "City": "CLIFFWOOD",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-4049862-2044208",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.87"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-29T15:28:59Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "77ljx06z08ch5k7@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-9267043-7257844",
+        "EarliestShipDate": "2023-11-26T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-26T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-25T18:44:02Z",
+        "ShippingAddress": {
+          "StateOrRegion": "OH",
+          "PostalCode": "44515-4027",
+          "City": "YOUNGSTOWN",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "114-9267043-7257844",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "23.60"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-11-29T18:54:01Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "r8r824whzknjk0k@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-6469241-4741012",
+        "EarliestShipDate": "2023-11-28T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-11-28T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-27T23:04:44Z",
+        "ShippingAddress": {
+          "StateOrRegion": "OH",
+          "PostalCode": "43140-9017",
+          "City": "LONDON",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-6469241-4741012",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.91"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-02T19:57:57Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "xdgb5k0p6pkywh1@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-3372070-1214655",
+        "EarliestShipDate": "2023-12-01T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-01T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-29T15:56:04Z",
+        "ShippingAddress": {
+          "StateOrRegion": "WA",
+          "PostalCode": "99403-1148",
+          "City": "CLARKSTON",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-3372070-1214655",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.00"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-03T11:40:44Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "brbxgh166p748bm@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-3944455-6465832",
+        "EarliestShipDate": "2023-12-01T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-01T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-11-30T20:45:53Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MO",
+          "PostalCode": "65793-3330",
+          "City": "WILLOW SPRINGS",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-3944455-6465832",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.81"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-04T09:02:19Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {},
+        "AmazonOrderId": "112-6004303-5498621",
+        "EarliestShipDate": "2023-12-02T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-02T07:59:59Z",
+        "ShipServiceLevel": "Standard",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-01T18:32:38Z",
+        "ShippingAddress": {
+          "StateOrRegion": "TX",
+          "PostalCode": "77584-1063",
+          "City": "PEARLAND",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-6004303-5498621",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.77"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-05T21:59:37Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "4372hbxwdzg4d27@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-9369326-7501838",
+        "EarliestShipDate": "2023-12-02T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-02T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-01T17:20:54Z",
+        "ShippingAddress": {
+          "StateOrRegion": "OH",
+          "PostalCode": "45431",
+          "City": "DAYTON",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "114-9369326-7501838",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.89"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-06T07:39:15Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "j77l446sn3ws9yc@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-2072094-7329846",
+        "EarliestShipDate": "2023-12-05T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-05T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-05T01:54:10Z",
+        "ShippingAddress": {
+          "StateOrRegion": "IL",
+          "PostalCode": "62966-1843",
+          "City": "MURPHYSBORO",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-2072094-7329846",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.12"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-07T06:51:05Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {},
+        "AmazonOrderId": "113-4589120-9242649",
+        "EarliestShipDate": "2023-12-05T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-05T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-05T03:31:55Z",
+        "ShippingAddress": {
+          "StateOrRegion": "PA",
+          "PostalCode": "16254-6030",
+          "City": "SHIPPENVILLE",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-4589120-9242649",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.82"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-07T12:56:36Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "ykct5d4xdv8w1td@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-3962252-4861861",
+        "EarliestShipDate": "2023-12-07T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-07T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-07T01:46:00Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MI",
+          "PostalCode": "48346-3188",
+          "City": "CLARKSTON",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-3962252-4861861",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.82"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-07T13:11:30Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "4mdgym7b35qh0tc@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-7050646-1871466",
+        "EarliestShipDate": "2023-12-07T21:30:00Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-07T21:30:00Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-07T02:20:04Z",
+        "ShippingAddress": {
+          "StateOrRegion": "NC",
+          "PostalCode": "28027-9746",
+          "City": "CONCORD",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "114-7050646-1871466",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.91"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-08T07:02:51Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "4mdgym7b35qh0tc@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-8695686-7155434",
+        "EarliestShipDate": "2023-12-07T21:30:00Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-07T21:30:00Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-07T02:19:44Z",
+        "ShippingAddress": {
+          "StateOrRegion": "NC",
+          "PostalCode": "28027-9746",
+          "City": "CONCORD",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "114-8695686-7155434",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.91"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-08T07:07:02Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "mzb5qv618nt58gq@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-9302617-5481040",
+        "EarliestShipDate": "2023-12-08T00:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-08T00:00:00Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-06T23:32:37Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MN",
+          "PostalCode": "55317-4402",
+          "City": "CHANHASSEN",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-9302617-5481040",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.04"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-09T00:17:04Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "f4yxwq3c1rk0yyw@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-0287506-1364240",
+        "EarliestShipDate": "2023-12-09T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-09T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-08T12:50:05Z",
+        "ShippingAddress": {
+          "StateOrRegion": "TN",
+          "PostalCode": "37184-4240",
+          "City": "WATERTOWN",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-0287506-1364240",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.16"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-09T04:46:05Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "9q2r2jz07srv307@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-9823591-8142655",
+        "EarliestShipDate": "2023-12-08T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-08T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-07T20:25:44Z",
+        "ShippingAddress": {
+          "StateOrRegion": "CO",
+          "PostalCode": "80310-1019",
+          "City": "BOULDER",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-9823591-8142655",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.10"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-09T05:41:06Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "vpjxtt5pd6gwgxz@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-4127544-1301068",
+        "EarliestShipDate": "2023-12-08T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-08T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-08T03:30:28Z",
+        "ShippingAddress": {
+          "StateOrRegion": "TN",
+          "PostalCode": "37043-1753",
+          "City": "CLARKSVILLE",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-4127544-1301068",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.14"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-09T08:01:50Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "d5v656hk5zkwjp3@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-8164934-0313055",
+        "EarliestDeliveryDate": "2023-12-22T08:00:00Z",
+        "EarliestShipDate": "2023-12-08T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-12T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2024-01-10T07:59:59Z",
+        "PurchaseDate": "2023-12-06T02:43:14Z",
+        "ShippingAddress": {
+          "StateOrRegion": "Michigan",
+          "PostalCode": "48917",
+          "City": "Lansing",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "36.55"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-11T00:58:50Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "1w1rkhl1fp06qjn@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-2513935-5492230",
+        "EarliestDeliveryDate": "2023-12-22T08:00:00Z",
+        "EarliestShipDate": "2023-12-08T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-12T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2024-01-10T07:59:59Z",
+        "PurchaseDate": "2023-12-06T00:22:12Z",
+        "ShippingAddress": {
+          "StateOrRegion": "TX",
+          "PostalCode": "78261",
+          "City": "SAN ANTONIO",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "32.40"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-11T01:06:32Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "c5n84yw3h4h6r25@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-1806253-2085814",
+        "EarliestShipDate": "2023-12-11T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-11T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-10T06:51:24Z",
+        "ShippingAddress": {
+          "StateOrRegion": "NY",
+          "PostalCode": "11784-2224",
+          "City": "SELDEN",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-1806253-2085814",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.81"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-11T03:08:56Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "1w1rkhl1fp06qjn@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-0333417-4960202",
+        "EarliestDeliveryDate": "2023-12-26T08:00:00Z",
+        "EarliestShipDate": "2023-12-11T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-13T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2024-01-11T07:59:59Z",
+        "PurchaseDate": "2023-12-07T04:07:16Z",
+        "ShippingAddress": {
+          "StateOrRegion": "IL",
+          "PostalCode": "60175-5508",
+          "City": "ST CHARLES",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "30.40"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-11T04:33:25Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "1w1rkhl1fp06qjn@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-4864998-5581036",
+        "EarliestDeliveryDate": "2023-12-26T08:00:00Z",
+        "EarliestShipDate": "2023-12-11T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-13T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2024-01-11T07:59:59Z",
+        "PurchaseDate": "2023-12-07T04:11:50Z",
+        "ShippingAddress": {
+          "StateOrRegion": "TX",
+          "PostalCode": "78261",
+          "City": "SAN ANTONIO",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "31.32"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-11T04:33:47Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "1w1rkhl1fp06qjn@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-2142698-8885851",
+        "EarliestDeliveryDate": "2023-12-26T08:00:00Z",
+        "EarliestShipDate": "2023-12-11T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-13T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2024-01-11T07:59:59Z",
+        "PurchaseDate": "2023-12-07T02:11:02Z",
+        "ShippingAddress": {
+          "StateOrRegion": "TX",
+          "PostalCode": "78261",
+          "City": "SAN ANTONIO",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "31.32"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-11T04:43:11Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "d9jqwwhp1k0klgj@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-2198565-5760200",
+        "EarliestDeliveryDate": "2023-12-22T08:00:00Z",
+        "EarliestShipDate": "2023-12-08T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-12T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2024-01-10T07:59:59Z",
+        "PurchaseDate": "2023-12-06T04:31:16Z",
+        "ShippingAddress": {
+          "StateOrRegion": "TX",
+          "PostalCode": "78261-2571",
+          "City": "SAN ANTONIO",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "32.40"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-11T06:15:23Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "1w1rkhl1fp06qjn@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-3664609-8902655",
+        "EarliestDeliveryDate": "2023-12-27T08:00:00Z",
+        "EarliestShipDate": "2023-12-12T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-14T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2024-01-12T07:59:59Z",
+        "PurchaseDate": "2023-12-07T19:31:31Z",
+        "ShippingAddress": {
+          "StateOrRegion": "TX",
+          "PostalCode": "78261",
+          "City": "SAN ANTONIO",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "30.24"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-11T06:17:58Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "jfypjdqhhpsrq8w@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-2744635-2099425",
+        "EarliestShipDate": "2023-12-10T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-10T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-08T14:46:22Z",
+        "ShippingAddress": {
+          "StateOrRegion": "OR",
+          "PostalCode": "97603-7793",
+          "City": "KLAMATH FALLS",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-2744635-2099425",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.26"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-11T15:51:52Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "k75twr4spv54ws6@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-6494967-0373002",
+        "EarliestShipDate": "2023-12-10T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-10T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-09T17:27:08Z",
+        "ShippingAddress": {
+          "StateOrRegion": "VA",
+          "PostalCode": "24541-6525",
+          "City": "DANVILLE",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-6494967-0373002",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "23.33"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-11T22:41:11Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {},
+        "AmazonOrderId": "112-8229197-1898660",
+        "EarliestShipDate": "2023-12-13T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-13T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-12T13:45:09Z",
+        "ShippingAddress": {
+          "StateOrRegion": "TX",
+          "PostalCode": "78644-3122",
+          "City": "LOCKHART",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-8229197-1898660",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-12T18:32:29Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {},
+        "AmazonOrderId": "112-4347295-8718604",
+        "EarliestShipDate": "2023-12-13T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-13T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-12T17:31:35Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MD",
+          "PostalCode": "21784-8853",
+          "City": "ELDERSBURG",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-4347295-8718604",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-13T02:30:17Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "65j66kc8bxnym37@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-2740452-7384255",
+        "EarliestShipDate": "2023-12-13T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-13T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-12T06:17:22Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MI",
+          "PostalCode": "49423-4108",
+          "City": "HOLLAND",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "114-2740452-7384255",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.82"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-13T04:19:06Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "gddnd45ykzn6nsn@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-1971704-3589866",
+        "EarliestShipDate": "2023-12-13T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-13T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-12T22:18:48Z",
+        "ShippingAddress": {
+          "StateOrRegion": "CA",
+          "PostalCode": "95207-5341",
+          "City": "STOCKTON",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-1971704-3589866",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.09"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-13T06:13:36Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "k0ksmc9m5bc3ll0@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-6243503-2523432",
+        "EarliestShipDate": "2023-12-13T06:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-13T06:00:00Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-10T21:23:30Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MA",
+          "PostalCode": "02170-3425",
+          "City": "QUINCY",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-6243503-2523432",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.84"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-13T06:52:26Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {},
+        "AmazonOrderId": "112-3520494-8915453",
+        "EarliestShipDate": "2023-12-13T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-13T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-12T17:30:49Z",
+        "ShippingAddress": {
+          "StateOrRegion": "VA",
+          "PostalCode": "23149-2903",
+          "City": "SALUDA",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-3520494-8915453",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-13T16:17:14Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "46lhqjkgrpm08j1@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-9261328-7045853",
+        "EarliestShipDate": "2023-12-12T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-12T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-12T05:43:01Z",
+        "ShippingAddress": {
+          "StateOrRegion": "AL",
+          "PostalCode": "35040-6241",
+          "City": "CALERA",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "114-9261328-7045853",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.00"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-14T01:25:38Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {},
+        "AmazonOrderId": "113-1562291-2958623",
+        "EarliestShipDate": "2023-12-14T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-14T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-13T19:07:54Z",
+        "ShippingAddress": {
+          "StateOrRegion": "IL",
+          "PostalCode": "62812-0014",
+          "City": "BENTON",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-1562291-2958623",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-14T01:27:23Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "lt199gh0x6lty7l@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-5627086-8407469",
+        "EarliestShipDate": "2023-12-14T06:15:00Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-14T06:15:00Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-11T18:36:22Z",
+        "ShippingAddress": {
+          "StateOrRegion": "Pennsylvania",
+          "PostalCode": "18053",
+          "City": "Germansville",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-5627086-8407469",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.82"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-14T18:24:23Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {},
+        "AmazonOrderId": "112-6002242-9080256",
+        "EarliestShipDate": "2023-12-16T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Canceled",
+        "NumberOfItemsShipped": 0,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-16T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-15T15:43:23Z",
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-6002242-9080256",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-15T18:55:27Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "jgll5664yz5sv2y@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-9595246-9772211",
+        "EarliestShipDate": "2023-12-15T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-15T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-14T03:01:54Z",
+        "ShippingAddress": {
+          "StateOrRegion": "CA",
+          "PostalCode": "95823",
+          "City": "SACRAMENTO",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-9595246-9772211",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "27.13"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-15T20:45:23Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "trll2wglfyktt3f@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-2163757-6539450",
+        "EarliestShipDate": "2023-12-15T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-15T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-15T04:45:42Z",
+        "ShippingAddress": {
+          "StateOrRegion": "PA",
+          "PostalCode": "19047-2343",
+          "City": "LANGHORNE",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-2163757-6539450",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.82"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-16T08:25:57Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "cpvq5qyy71y4vvj@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-1838356-3937825",
+        "EarliestShipDate": "2023-12-16T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-16T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-16T00:21:36Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MO",
+          "PostalCode": "64152-2083",
+          "City": "KANSAS CITY",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "114-1838356-3937825",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "23.87"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-16T21:18:33Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "rb1tvbnbqbrhv9b@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-9629295-8485845",
+        "EarliestShipDate": "2023-12-16T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-16T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-16T03:24:17Z",
+        "ShippingAddress": {
+          "StateOrRegion": "CA",
+          "PostalCode": "91331-1533",
+          "City": "PACOIMA",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-9629295-8485845",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.14"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-17T08:40:51Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "rk7f2sms28vr6tv@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-7954763-2165033",
+        "EarliestShipDate": "2023-12-17T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-17T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-16T17:37:07Z",
+        "ShippingAddress": {
+          "StateOrRegion": "NJ",
+          "PostalCode": "08361-6116",
+          "City": "VINELAND",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-7954763-2165033",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.87"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-17T16:21:57Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "gdtbx9kk6nswmqt@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-9186353-3203406",
+        "EarliestShipDate": "2023-12-17T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-17T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-16T16:58:36Z",
+        "ShippingAddress": {
+          "StateOrRegion": "AZ",
+          "PostalCode": "85032-5227",
+          "City": "PHOENIX",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-9186353-3203406",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.06"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-17T17:32:41Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "ngbwqdmx8shf17x@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-9443936-3434649",
+        "EarliestShipDate": "2023-12-17T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-17T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-16T12:58:34Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MA",
+          "PostalCode": "02190-1233",
+          "City": "WEYMOUTH",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-9443936-3434649",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.84"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-17T22:46:46Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "l05nmh39clynxww@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-1801856-4165814",
+        "EarliestShipDate": "2023-12-17T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-17T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-16T16:19:05Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MO",
+          "PostalCode": "64113-1858",
+          "City": "KANSAS CITY",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-1801856-4165814",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.95"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-18T04:14:13Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "1wx0s11z0420br7@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-9324384-8307423",
+        "EarliestShipDate": "2023-12-17T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-17T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-16T23:30:27Z",
+        "ShippingAddress": {
+          "StateOrRegion": "AZ",
+          "PostalCode": "86403-4710",
+          "City": "LAKE HAVASU CITY",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-9324384-8307423",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.96"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-18T07:15:32Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "7k8864c699yykk5@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-4280477-0509060",
+        "EarliestShipDate": "2023-12-20T03:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-20T03:00:00Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-12T20:11:38Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MI",
+          "PostalCode": "48101-2218",
+          "City": "ALLEN PARK",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-4280477-0509060",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.82"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-18T07:36:47Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "jttnypk3d932dqv@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-5415208-4225061",
+        "EarliestShipDate": "2023-12-17T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-17T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-16T23:33:57Z",
+        "ShippingAddress": {
+          "StateOrRegion": "OH",
+          "PostalCode": "43605-1984",
+          "City": "OREGON",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-5415208-4225061",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.98"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-18T08:53:15Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "mr8v1vpjxxngq1b@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-3353691-1974655",
+        "EarliestShipDate": "2023-12-18T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-18T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-17T21:45:18Z",
+        "ShippingAddress": {
+          "StateOrRegion": "NJ",
+          "PostalCode": "08081-2146",
+          "City": "SICKLERVILLE",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-3353691-1974655",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.87"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-19T05:44:41Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "03s2jbw4yq3xcb2@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-1440268-5729858",
+        "EarliestShipDate": "2023-12-18T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-18T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-17T17:34:11Z",
+        "ShippingAddress": {
+          "StateOrRegion": "CA",
+          "PostalCode": "92131",
+          "City": "San Diego",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-1440268-5729858",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.98"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-19T05:45:00Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "jyffk6d3hysg478@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-1884879-2932264",
+        "EarliestShipDate": "2023-12-19T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-19T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-18T22:30:24Z",
+        "ShippingAddress": {
+          "StateOrRegion": "VA",
+          "PostalCode": "22603-4226",
+          "City": "WINCHESTER",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-1884879-2932264",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.75"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-19T14:18:21Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {},
+        "AmazonOrderId": "112-0953781-0345866",
+        "EarliestShipDate": "2023-12-20T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Canceled",
+        "NumberOfItemsShipped": 0,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-20T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-19T07:49:04Z",
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-0953781-0345866",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-19T16:24:04Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "nk827t27jb5xfsc@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-6231308-9257011",
+        "EarliestDeliveryDate": "2024-01-04T08:00:00Z",
+        "EarliestShipDate": "2023-12-19T08:00:00Z",
+        "SalesChannel": "Amazon.com",
+        "AutomatedShippingSettings": {
+          "HasAutomatedShippingSettings": false
+        },
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "MFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-21T07:59:59Z",
+        "ShipServiceLevel": "Std US D2D Dom",
+        "DefaultShipFromLocationAddress": {
+          "StateOrRegion": "Carolina",
+          "AddressLine1": "null",
+          "PostalCode": "00988",
+          "City": "Carolina",
+          "CountryCode": "PR",
+          "Name": "null"
+        },
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "LatestDeliveryDate": "2024-01-23T07:59:59Z",
+        "PurchaseDate": "2023-12-14T22:35:07Z",
+        "ShippingAddress": {
+          "StateOrRegion": "WV",
+          "PostalCode": "26241-3477",
+          "City": "ELKINS",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "47.01"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-20T04:25:00Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "583jyjwmmy8sjz7@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-7972960-5082654",
+        "EarliestShipDate": "2023-12-21T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 5,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-21T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-19T15:10:05Z",
+        "ShippingAddress": {
+          "StateOrRegion": "CA",
+          "PostalCode": "93449-2914",
+          "City": "PISMO BEACH",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "114-7972960-5082654",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "53.60"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-20T14:59:03Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "r9pwzfjfnt1yw5c@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "111-0650524-0597827",
+        "EarliestShipDate": "2023-12-21T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-21T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-20T22:57:07Z",
+        "ShippingAddress": {
+          "StateOrRegion": "NE",
+          "PostalCode": "68138-6466",
+          "City": "OMAHA",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "111-0650524-0597827",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.77"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-21T06:36:32Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "vs0h936r50jlbk0@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-9373602-8541003",
+        "EarliestShipDate": "2023-12-21T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-21T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-21T04:07:04Z",
+        "ShippingAddress": {
+          "StateOrRegion": "TX",
+          "PostalCode": "76180-8208",
+          "City": "NORTH RICHLAND HILLS",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-9373602-8541003",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.02"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-21T18:32:01Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "q336k9rlcd0wrml@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-7727218-4516259",
+        "EarliestShipDate": "2023-12-21T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-21T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-20T14:50:43Z",
+        "ShippingAddress": {
+          "StateOrRegion": "AR",
+          "PostalCode": "72560-8382",
+          "City": "MOUNTAIN VIEW",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-7727218-4516259",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.00"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-21T20:50:38Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "jr5t7yf6d0xsrnh@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-1681945-8328236",
+        "EarliestShipDate": "2023-12-21T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-21T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-20T00:55:12Z",
+        "ShippingAddress": {
+          "StateOrRegion": "CA",
+          "PostalCode": "94121-2391",
+          "City": "SAN FRANCISCO",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "114-1681945-8328236",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.06"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-21T22:44:22Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "gtr7232dsq9nx07@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-0325464-8769858",
+        "EarliestShipDate": "2023-12-21T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 2,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-21T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-20T10:29:28Z",
+        "ShippingAddress": {
+          "StateOrRegion": "IN",
+          "PostalCode": "46815-6550",
+          "City": "FORT WAYNE",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "114-0325464-8769858",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "19.82"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-21T22:45:48Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "f1cdv1x0bnxwzhv@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-9805095-5731406",
+        "EarliestShipDate": "2023-12-17T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-17T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-17T02:23:31Z",
+        "ShippingAddress": {
+          "StateOrRegion": "NJ",
+          "PostalCode": "08053-1718",
+          "City": "MARLTON",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-9805095-5731406",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.87"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-22T02:51:29Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "l03bplrqzsv9w1m@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-5315889-0229002",
+        "EarliestShipDate": "2023-12-22T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-22T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-21T12:55:20Z",
+        "ShippingAddress": {
+          "StateOrRegion": "IL",
+          "PostalCode": "60647-2231",
+          "City": "CHICAGO",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "114-5315889-0229002",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.97"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-22T05:24:50Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "8wfks34jsb4v2n6@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "114-6591969-1946626",
+        "EarliestShipDate": "2023-12-22T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-22T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-20T08:10:14Z",
+        "ShippingAddress": {
+          "StateOrRegion": "OR",
+          "PostalCode": "97055-7355",
+          "City": "SANDY",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "114-6591969-1946626",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "26.95"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-22T06:10:43Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "h00979st2tbrh6g@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-4405483-5512212",
+        "EarliestShipDate": "2023-12-20T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-20T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-20T02:28:46Z",
+        "ShippingAddress": {
+          "StateOrRegion": "MO",
+          "PostalCode": "64055-4033",
+          "City": "INDEPENDENCE",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-4405483-5512212",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.89"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-22T06:14:26Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "6dld3p6cdncjc26@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "112-6932363-1657858",
+        "EarliestShipDate": "2023-12-22T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-22T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-21T19:59:21Z",
+        "ShippingAddress": {
+          "StateOrRegion": "IL",
+          "PostalCode": "60102-3774",
+          "City": "ALGONQUIN",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "112-6932363-1657858",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.00"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-22T06:46:20Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "l8yc5gsv7xmhdzp@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-8695430-3001065",
+        "EarliestShipDate": "2023-12-23T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-23T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-22T04:55:31Z",
+        "ShippingAddress": {
+          "StateOrRegion": "OR",
+          "PostalCode": "97080-4215",
+          "City": "GRESHAM",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-8695430-3001065",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.26"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-23T06:35:17Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "1zhk5b957kqf8h1@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-2543882-3156204",
+        "EarliestShipDate": "2023-12-22T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-22T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-21T20:21:09Z",
+        "ShippingAddress": {
+          "StateOrRegion": "NY",
+          "PostalCode": "11780-2139",
+          "City": "SAINT JAMES",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-2543882-3156204",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.06"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-23T16:09:27Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {},
+        "AmazonOrderId": "113-9099528-7122661",
+        "EarliestShipDate": "2023-12-23T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-23T07:59:59Z",
+        "ShipServiceLevel": "Expedited",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-22T17:24:47Z",
+        "ShippingAddress": {
+          "StateOrRegion": "TX",
+          "PostalCode": "79416-3705",
+          "City": "LUBBOCK",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-9099528-7122661",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "9.89"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-26T14:39:51Z",
+        "ShipmentServiceLevelCategory": "Expedited"
+      },
+      {
+        "BuyerInfo": {
+          "BuyerEmail": "591g8gjb7q4bhzx@marketplace.amazon.com"
+        },
+        "AmazonOrderId": "113-5750408-5721825",
+        "EarliestShipDate": "2023-12-13T07:59:59Z",
+        "SalesChannel": "Amazon.com",
+        "OrderStatus": "Shipped",
+        "NumberOfItemsShipped": 1,
+        "OrderType": "StandardOrder",
+        "IsPremiumOrder": false,
+        "IsPrime": false,
+        "FulfillmentChannel": "AFN",
+        "NumberOfItemsUnshipped": 0,
+        "HasRegulatedItems": false,
+        "IsReplacementOrder": "false",
+        "IsSoldByAB": false,
+        "LatestShipDate": "2023-12-13T07:59:59Z",
+        "ShipServiceLevel": "Standard",
+        "IsISPU": false,
+        "MarketplaceId": "ATVPDKIKX0DER",
+        "PurchaseDate": "2023-12-06T11:51:30Z",
+        "ShippingAddress": {
+          "StateOrRegion": "GA",
+          "PostalCode": "30043-4333",
+          "City": "LAWRENCEVILLE",
+          "CountryCode": "US"
+        },
+        "IsAccessPointOrder": false,
+        "SellerOrderId": "113-5750408-5721825",
+        "PaymentMethod": "Other",
+        "IsBusinessOrder": false,
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "10.55"
+        },
+        "PaymentMethodDetails": [
+          "Standard"
+        ],
+        "IsGlobalExpressEnabled": false,
+        "LastUpdateDate": "2023-12-26T18:33:57Z",
+        "ShipmentServiceLevelCategory": "Standard"
+      }
+    ],
+    "NextToken": "RzVW3XwXU51/YYuZQbKv1QafEPREmauvizt1MIhPYZbzfnPy+0T2vW3uCyZIOheWVLT7bdtMMvF1t2x/XkuNgt8ytOVgN7d/KyNtf5fepe0z86MVYTeRn2c/+dHoH9MJIMN6uNsKtrmS68vI7Bqws+weLxD7b1CV0jL8AmPkSLMzI3F6xMGhlqfL9sO7x3Jwllhc4XvGqg5e0zIeaOVNezxWEXvdeDL7luE7sqqacEA7i/YFzxzkqAapaWRNYMT6MN8+08PUhkQwE7+t4NjazyEZY027dXAVTSGshRBy6ZTthhfBGj6Dwur8WCwcU8Vc25news0zC1yEfogqf3f0inv9Po2hpmv7Wt8SmjSIQFVMX+T2cU9iYN9+sNbTv+NA4ZOR/rx5mzD+RXHcS+oj3RTArC6F/K1KEz/cddhIyOL0SNNBobGZ7QndMz5WunL0",
+    "LastUpdatedBefore": "2024-01-22T09:38:19Z"
+  }
+}
